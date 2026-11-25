@@ -18,7 +18,7 @@ public class JdbcPro7
 		System.out.println("Connection Is A Created !!");
 		
 		Statement stmt = con.createStatement();
-		System.out.println("Statements is a created !");
+		System.out.println("Statements created !!");
 		
 	
 		String tableCreationQuery =

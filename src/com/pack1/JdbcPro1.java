@@ -7,7 +7,7 @@ public class JdbcPro1{
     String USNAME="C##GANESh";
     String PWD="MANAGER";
     public void method1() {
-        System.out.println("Connecting to the database");
+        System.out.println("Connecting to the database created");
         try{       
              Class.forName(driver);
             Connection con = DriverManager.getConnection(DBURL, USNAME, PWD);
