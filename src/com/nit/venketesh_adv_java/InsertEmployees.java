@@ -21,7 +21,7 @@ public class InsertEmployees {
             PreparedStatement ps = con.prepareStatement(query);
 
             ps.setInt(1, 101);
-            ps.setString(2, "Ganesh");
+            ps.setString(2, "Rohit");
             ps.setDouble(3, 35000);
 
             int result = ps.executeUpdate();
