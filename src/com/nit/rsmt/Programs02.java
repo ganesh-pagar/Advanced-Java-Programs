@@ -30,7 +30,7 @@ public static void main(String[] args) {
 		PreparedStatement pstmt1=con.prepareStatement(updateQueryForAdress);
 		System.out.println("Enter the eaddress to be update");
 		String eaddress=sc.next();
-		System.out.println("Enter the eid for which you want to update");
+		System.out.println("Enter the employee id for which you want to update");
 		int eid1=sc.nextInt();
 		
 		pstmt1.setString(1,eaddress );
