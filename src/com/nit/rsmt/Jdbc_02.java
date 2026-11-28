@@ -13,7 +13,7 @@ public class Jdbc_02 {
 			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","oracle");
 			CallableStatement cs = con.prepareCall("{call storeStudentData(?,?,?,?,?,?,?,?,?)}");
 		    Scanner sc=new Scanner(System.in);
-		    System.out.println("Enter StuId");
+		    System.out.println("Enter Student id ");
 		    int sId=Integer.parseInt(sc.nextLine());
 		    System.out.println("Enter Stu RollNo");
 		    int srollNo=Integer.parseInt(sc.nextLine());

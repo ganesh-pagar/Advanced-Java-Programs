@@ -45,7 +45,7 @@ public static void main(String[] args) {
 		    }
 		    else {
 		    	   con.rollback();
-		    	 System.out.println("Not compeleted!!");
+		    	 System.out.println("Operations Not compeleted!!");
 		    }
 		
 		
